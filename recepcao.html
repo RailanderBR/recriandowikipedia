@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        ul { list-style: none; padding-left: 5px; }
+        a { color:red; text-decoration: none;}
+        .bar {
+            background-color: red;
+            padding:15px;
+            border-top: solid 1px black;
+            border-bottom: solid 1px black;
+        }
+        .content {
+            max-width: 1440px;
+            margin: auto;
+            grid-gap: 3rem;
+            display: grid;
+            gap: 3rem;
+            grid-template-areas: "sidebar main anchors";
+            grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .footer {
+            min-height: 100px;
+            border-top: solid 1px black;
+        }
+        .anchors {
+            border-left: solid 1px black;
+            padding-left: 15px;
+        }
+        .sidebar {
+            border-right: solid 1px black;
+        }
+        figure {
+            text-align: center;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 50;
+            padding-inline-start: 0%;
+        }
+        nav ul li a{
+            padding:30px 15px;
+            color: red;
+            border-color: black;
+            text-decoration: none;
+            border-radius: 15px 15px 0 0;
+        }
+        nav ul li a:hover{
+            color:white;
+            background:red;
+        }
+        </style>
+</head>
+<body>
+    <header style="background-color: black;">
+        <nav class="logo" alt="Logotipo">
+            <figure>
+                <img src="C:\Users\David\Documents\CÓDIGOS\Cursos DIO\HTML\HTML 5\part 3\imagens desafio\castlevania_logo.png" width="200"/><br>
+                <figurecaption style="color: red;"><strong> Logo da série Castlevania - Netflix</strong></figurecaption>
+            </figure>
+            <small><center><font size="3"><a href="desafio.html"><strong>(Página principal)</strong></a></font></small></center>
+            <ul>
+                <li><a href="https://jovemnerd.com.br/nerdbunker/castlevania-nocturne-tudo-sobre/" title="Mais sobre a outra série"  target="_blank">Castlevania: Noturno</a></li>
+                <li><a href="https://www.bichosgeeks.com/lore-historia-de-castlevania-1/" title="Descubra mais"  target="_blank">História de Castlevania</a></li>
+                <li><a href="https://www.youtube.com/watch?v=8wziyhERt3c&list=PLVLpSDo-JJJT58ngAiXSiKGXH__ZV6Ssp" title="Aprecie as belas músicas"  target="_blank">Castlevania no PIANO</a></li>
+            </ul>
+                </nav>  
+            </header>
+        </nav>
+    </header> 
+    <nav class="bar"></nav>
+
+    <main class="content" alt="conteúdo principal">
+        <section class="sidebar" alt="links sobre a série">
+            <h2>Mais sobre Castlevania</h2>
+            <caption><strong>Melhores jogos da franquia</strong></caption>
+            <caption><strong>Segundo a crítica</strong></caption>
+            <ul>
+                <li><a href="symphony.html" title="Descubra sobre Alucard">Symphony of the night</a></li>
+                <li><a href="circleofmoon.html" title="Descubra sobre ">Circle of the Moon</a></li>
+                <li><a href="downofsorrow.html" title="Descubra sobre Mais de Soma">Dawn of Sorrow</a></li>
+                <li><a href="ariaofsorrow.html" title="Descubra sobre Soma">Aria of Sorrow</a></li>
+                <li><a href="rondoofblood.html" title="Descubra sobre Richter">Rondo of blood</a></li>
+            </ul>
+            <hr>
+            <br>
+            <figure>
+                <img src="C:\Users\David\Documents\CÓDIGOS\Cursos DIO\HTML\HTML 5\part 3\imagens desafio\main2.png" weidth="200" height="285"/>
+            </figure>
+            
+        </section>
+        
+        <article class="main" alt="artigos sobre o tema">
+            <h1 style="background-color: lightgrey">Recepção da série</h1>
+            <figure>
+                <img src="C:\Users\David\Documents\CÓDIGOS\Cursos DIO\HTML\HTML 5\part 3\imagens desafio\netflix.jpg" weidth="50px">
+            </figure>
+            <article>
+            <h2 style="background-color: red;">Audiência</h2>
+            <p>De acordo com a Parrot Analytics, Castlevania foi a série digital original mais popular nos Estados Unidos entre 6 e 19 de julho de 2017, com a série gerando 23 175 616 "expressões de demanda" em média. De acordo com a Parrot Analytics, "expressões de demanda" indicam a "demanda total do público sendo expressa por um título, dentro de um país", medido por fluxos de vídeo e downloads, bem como mídias sociais. </p>
+            <p>Ele permaneceu como o 7.º programa digital original mais procurado nos Estados Unidos até 11 de outubro de 2017. No final de 2017, Castlevania foi a 15.ª série digital mais procurada do ano nos Estados Unidos, com uma média de 18 137 196 expressões de demanda ao longo do ano. Foi também uma das 20 séries digitais mais produzidas do ano, no Reino Unido (20.ª), Japão (4.ª), Brasil (10.ª), México (11.ª), França (13.ª), Canadá (14.ª), Alemanha. (19.ª) e Austrália (20.ª).</p>
+            <h2 style="background-color: red;">Resposta a Crítica</h2>
+            <p>No site de agregação de revisões Rotten Tomatoes, a primeira temporada tem uma classificação de 79%, com base em 24 avaliações, com uma classificação média de 7,39 / 10 e um consenso crítico que diz "Castlevania oferece visuais espetaculares e uma adaptação convincente em seu primeira temporada muito curta". É a primeira adaptação de videogame na história do site a receber uma classificação "Fresh". O Metacritic, que atribui uma classificação em 100 comentários de críticos tradicionais, relatou que havia "críticas geralmente favoráveis" para a série, com uma pontuação média de 71 baseado em 4 avaliações.</p>
+            <p>O The Verge deu uma avaliação mista, observando que o gore fez pouco para criar uma sensação de perigo e sentiu "intencionalmente chamativo". Concluiu que "Castlevania está madura com potencial, mas também carregada de clichês". Dave Trumbore do Collider deu a série quatro estrelas de cinco, elogiando a química entre o elenco e comparando a violência com o anime, como Ninja Scroll. A IGN também elogiou o roteiro de Warren Ellis, mas sentiu que seu humor era um pouco irritante. Em uma resenha à revista Paste, Dave Raposo escreveu que Castlevania canalizou a fórmula da piada de xorte que é vista em Family Guy. Ele descartou as tentativas "absurdas" de humanizar Dracula e chamou-a de "imitação tímida de Game of Thrones", observando que as ambições do roteiro "fogem dos ideais simples que unificam as melhores entradas da série Castlevania". Diversos comentários elogiaram o elenco de voz, particularmente Graham McTavish como Dracula e Richard Armitage como Trevor Belmont. Escrevendo para o Screen Rant, Sarah Moran chamou a atenção para a "borda sarcástica" que Armitage trouxe para o personagem. O Destructoid também escreveu positivamente de Trevor Belmont como protagonista, mas criticou a animação e acrescentou que os desenhos dos personagens eram "rasos". Dan Seitz, da Uproxx, deixou um comentário negativo, escrevendo que tentou muito encontrar profundidade na história da série Castlevania. Ele também citou problemas com o ritmo. </p>
+        </article>
+
+        </article>
+
+        <aside class="anchors" alt="links relacionados">
+            <audio controls autoplay>
+                <source src="C:\Users\David\Downloads\videoplayback.m4a" />
+                Seu navegador não tem suporte para este áudio
+            </audio>
+            <caption><strong>Você encontrará sobre:</strong></caption>
+            <ul>
+                <li><a href="serie.html">Castlevania (série de televisão)</a></li>
+                <li><a href="elenco.html">Elenco</a></li>
+                <li><a href="producao.html">Produção</a></li>
+                <li><a href="episodios.html">Episódios</a></li>
+                <li><a href="recepcao.html">Recepção</a></li>
+            </ul>
+            <iframe width="350" height="200" src="https://www.youtube.com/embed/ykIea97vacg?si=XlH7sYp0osfphK1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </aside>
+    </main>
+
+    <footer class="footer" alt="rodapé informativo" style="background-color: black; color: red;">
+        <details>
+            <sumarry>Quer saber sobre a origem da história de  Castlevia?</sumarry>
+            <p>Para saber mais sobre Castlevaia?</p>
+            <a href="https://www.fandom.com/articles/origin-story-castlevania" title="Clique e confira"  target="_blank">Clique no link</a>
+        </details> 
+        <small><center><font size="3"><a href="desafio.html"><strong>(Início)</strong></a></font></small></center>
+        <figure>
+            <img src="C:\Users\David\Documents\CÓDIGOS\Cursos DIO\HTML\HTML 5\part 3\imagens desafio\rodape-logo.png" width="200"/><br>
+            <figurecaption style="color: red;"><strong> Logo da série Castlevania</strong></figurecaption>
+        </figure>
+        <tbody>
+            <center><font size="2"><h3 id="sobre">Castlevania - Informações</h3></font></center>
+            <center><font size="2"><p>Esse site é livre, porem, deve-se usar os créditos para o seu criador</p></font></center>
+            <center><font size="2"><p>Todos os direitos destas imagens e ifnormações é da KONAMI e NETFLIX</p></font></center>
+            <center><i><font size="2"><div class="copyright"> © 2024 Copyright by Company Name. All Rights Reserved. </div></font></i></center>
+        </tbody>
+   </footer>
+</body>
+</html>

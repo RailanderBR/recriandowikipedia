@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        ul { list-style: none; padding-left: 5px; }
+        a { color:red; text-decoration: none;}
+        .bar {
+            background-color: red;
+            padding:15px;
+            border-top: solid 1px black;
+            border-bottom: solid 1px black;
+        }
+        .content {
+            max-width: 1440px;
+            margin: auto;
+            grid-gap: 3rem;
+            display: grid;
+            gap: 3rem;
+            grid-template-areas: "sidebar main anchors";
+            grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .footer {
+            min-height: 100px;
+            border-top: solid 1px black;
+        }
+        .anchors {
+            border-left: solid 1px black;
+            padding-left: 15px;
+        }
+        .sidebar {
+            border-right: solid 1px black;
+        }
+        figure {
+            text-align: center;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 50;
+            padding-inline-start: 0%;
+        }
+        nav ul li a{
+            padding:30px 15px;
+            color: red;
+            border-color: black;
+            text-decoration: none;
+            border-radius: 15px 15px 0 0;
+        }
+        nav ul li a:hover{
+            color:white;
+            background:red;
+        }
+        </style>
+</head>
+<body>
+    <header style="background-color: black;">
+        <nav class="logo" alt="Logotipo">
+            <figure>
+                <img src="C:\Users\David\Documents\CÓDIGOS\Cursos DIO\HTML\HTML 5\part 3\imagens desafio\castlevania_logo.png" width="200"/><br>
+                <figurecaption style="color: red;"><strong> Logo da série Castlevania - Netflix</strong></figurecaption>
+            </figure>
+            <small><center><font size="3"><a href="desafio.html"><strong>(Página principal)</strong></a></font></small></center>
+            <ul>
+                <li><a href="https://jovemnerd.com.br/nerdbunker/castlevania-nocturne-tudo-sobre/" title="Mais sobre a outra série"  target="_blank">Castlevania: Noturno</a></li>
+                <li><a href="https://www.bichosgeeks.com/lore-historia-de-castlevania-1/" title="Descubra mais"  target="_blank">História de Castlevania</a></li>
+                <li><a href="https://www.youtube.com/watch?v=8wziyhERt3c&list=PLVLpSDo-JJJT58ngAiXSiKGXH__ZV6Ssp" title="Aprecie as belas músicas"  target="_blank">Castlevania no PIANO</a></li>
+            </ul>
+                </nav>  
+            </header>
+        </nav>
+    </header> 
+    <nav class="bar"></nav>
+
+    <main class="content" alt="conteúdo principal">
+        <section class="sidebar" alt="links sobre a série">
+            <h2>Mais sobre Castlevania</h2>
+            <caption><strong>Melhores jogos da franquia</strong></caption>
+            <caption><strong>Segundo a crítica</strong></caption>
+            <ul>
+                <li><a href="symphony.html" title="Descubra sobre Alucard">Symphony of the night</a></li>
+                <li><a href="circleofmoon.html" title="Descubra sobre ">Circle of the Moon</a></li>
+                <li><a href="downofsorrow.html" title="Descubra sobre Mais de Soma">Dawn of Sorrow</a></li>
+                <li><a href="ariaofsorrow.html" title="Descubra sobre Soma">Aria of Sorrow</a></li>
+                <li><a href="rondoofblood.html" title="Descubra sobre Richter">Rondo of blood</a></li>
+            </ul>
+            <hr>
+            <br>
+            <figure>
+                <img src="C:\Users\David\Documents\CÓDIGOS\Cursos DIO\HTML\HTML 5\part 3\imagens desafio\main2.png" weidth="200" height="285"/>
+            </figure>
+            
+        </section>
+        
+        <article class="main" alt="artigos sobre o tema">
+            <h1 style="background-color: red">Warren Ellis - Criador do projeto</h1>
+            <figure>
+                <img src="C:\Users\David\Documents\CÓDIGOS\Cursos DIO\HTML\HTML 5\part 3\imagens desafio\criador.jpg" weidth="50px">
+            </figure>
+            <article>
+                <h2 style="background-color: red;">Produzindo a Série</h2>
+                <p>Em março de 2007, a Frederator Studios adquiriu os direitos para produzir uma adaptação cinematográfica de animação de Castlevania III: Dracula's Curse, destinada a produção diretamente em vídeo. A Frederator trouxe o escritor Warren Ellis a bordo como roteirista da série. Em uma entrevista à revista Paste, Warren Ellis disse que quando ele foi contatado sobre Castlevania ele não tinha nenhum conhecimento prévio da série e descobriu que era uma "transposição japonesa dos filmes Hammer Horror com os quais eu cresci e amei". Ao adaptar o jogo a um filme, Ellis não quis fazer uma adaptação direta, mas sim fornecer algum material para materializar o mundo do jogo e os elementos por trás dele. Neste estágio, o filme teria 80 minutos de duração, o que Ellis sabia que não seria suficiente para contar a história completa que ele queria, então foi capaz de dividir seu roteiro em uma trilogia de trabalhos, cada parte tendo uma auto-avaliação que continha estrutura de três atos. </p>
+                <p>A primeira parte seria apresentar os personagens de Dracula, Trevor, Sypha e Alucard e com uma resolução narrativa significativa. Desta forma, Ellis observou que, se as outras duas partes nunca foram iluminadas, a primeira obra "não exige a presença das outras duas partes para que ela funcione como uma coisa própria". Devido ao tempo limitado, Ellis optou por abandonar Grant Danasty, um personagem pirata no jogo; Ellis observou que, além do "nome estúpido", ele achava que o pirata estava fora de lugar no cenário e que o tempo de execução limitado não lhe permitia desenvolver o personagem completamente.Grant Danasty é mencionado como um pirata apenas no manual ocidental do jogo, no manual original em japonês, ele é referido como um rebelde e nunca como um pirata, algo que demonstra uma falta de cuidado de Warren em suas pesquisas para escrever seu roteiro.</p>
+                <p>Por volta de 2008, o trabalho na produção estagnou e entrou no inferno do desenvolvimento. Ellis havia completado seu roteiro em junho de 2008, e o blogue de produção do programa havia dito em agosto de 2008 que eles estavam fazendo compras em torno da ideia como um lançamento teatral, mas não houve mais atualizações antes do blogue ser silenciosamente excluído. </p>
+                <p>Duas temporadas do programa foram planejadas, com a primeira temporada de quatro episódios de 30 minutos lançados em 7 de julho de 2017. Esta temporada representa a primeira parte da trilogia que Ellis apresentou em 2007. A segunda temporada terá oito episódios e está prevista para ser lançada em 26 de outubro de 2018. Ellis disse que a segunda temporada, que completará a trilogia, é onde ele foi capaz de se desviar um pouco do jogo, e foi melhor antecipar o lançamento do programa na Netflix em termos de cenas e duração dos episódios. Shankar acredita que há uma oportunidade para mais histórias serem contadas a partir de outros jogos da série, observando que, no geral, ele vê a série como "uma história sobre uma família e várias gerações dessa família", com muitos contos a serem extraídos. A equipe de produção da segunda temporada incluirá membros da equipe que trabalharam em produções da Madhouse, como Death Parade. </p>
+            </article>
+
+        </article>
+
+        <aside class="anchors" alt="links relacionados">
+            <audio controls autoplay>
+                <source src="C:\Users\David\Downloads\videoplayback.m4a" />
+                Seu navegador não tem suporte para este áudio
+            </audio>
+            <caption><strong>Você encontrará sobre:</strong></caption>
+            <ul>
+                <li><a href="serie.html">Castlevania (série de televisão)</a></li>
+                <li><a href="elenco.html">Elenco</a></li>
+                <li><a href="producao.html">Produção</a></li>
+                <li><a href="episodios.html">Episódios</a></li>
+                <li><a href="recepcao.html">Recepção</a></li>
+            </ul>
+            <iframe width="350" height="200" src="https://www.youtube.com/embed/ykIea97vacg?si=XlH7sYp0osfphK1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </aside>
+    </main>
+
+    <footer class="footer" alt="rodapé informativo" style="background-color: black; color: red;">
+        <details>
+            <sumarry>Quer saber sobre a origem da história de  Castlevia?</sumarry>
+            <p>Para saber mais sobre Castlevaia?</p>
+            <a href="https://www.fandom.com/articles/origin-story-castlevania" title="Clique e confira"  target="_blank">Clique no link</a>
+        </details> 
+        <small><center><font size="3"><a href="desafio.html"><strong>(Início)</strong></a></font></small></center>
+        <figure>
+            <img src="C:\Users\David\Documents\CÓDIGOS\Cursos DIO\HTML\HTML 5\part 3\imagens desafio\rodape-logo.png" width="200"/><br>
+            <figurecaption style="color: red;"><strong> Logo da série Castlevania</strong></figurecaption>
+        </figure>
+        <tbody>
+            <center><font size="2"><h3 id="sobre">Castlevania - Informações</h3></font></center>
+            <center><font size="2"><p>Esse site é livre, porem, deve-se usar os créditos para o seu criador</p></font></center>
+            <center><font size="2"><p>Todos os direitos destas imagens e ifnormações é da KONAMI e NETFLIX</p></font></center>
+            <center><i><font size="2"><div class="copyright"> © 2024 Copyright by Company Name. All Rights Reserved. </div></font></i></center>
+        </tbody>
+   </footer>
+</body>
+</html>
